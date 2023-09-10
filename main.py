@@ -1,2 +1,3 @@
-print("hello welcome to python")
-print("I am Sanchitha Udana Wijesundara")
+# python is a interpreter language
+print("Welcome to Python")
+
