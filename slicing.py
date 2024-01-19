@@ -2,7 +2,7 @@
 
 x = ["a", "b", "c", "d"]
 
-print(x[0:4])
+print(x[0:4]) # o to 4
 print(x[:4])
 print(x[0:])
 
