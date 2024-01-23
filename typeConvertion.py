@@ -2,7 +2,7 @@ a = 10
 b = "20"
 condition = "True"
 
-c = a + int(b)
+c = a + int(b)  # casting string to integer
 print(c)
 print(type(c))
 
