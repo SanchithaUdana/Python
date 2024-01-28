@@ -7,7 +7,7 @@ def my_form(**formD):  # we used ** to define keyword arguments
 
 
 my_form(name="sanchitha", subject="ICT")
-# in this function, named parameters are converted into dictionary
+# in this function, named argument are converted into dictionary
 
 
 def form(name, age):
@@ -21,4 +21,4 @@ details = {
 }
 
 form(**details)
-# in this function, dictionary is converted into named parameters
+# in this function, dictionary is converted into named arguments
