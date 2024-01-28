@@ -1,5 +1,6 @@
 # Keyword Arguments
-def my_form(**form):
+# named argument values converted to a dictionary
+def my_form(**form):  # we used ** to define keyword arguments
     print(form)
     print(type(form))
     print("\"Hello\"", form['name'])
