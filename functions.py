@@ -1,9 +1,9 @@
 # functions in python
 
-#  create function including parameters
+# create function including parameters
 # mark is a positional parameter
 # subject is a default arguments
-#  we can not pass parameters after the default parameter
+# we can not pass parameters after the default parameter
 def get_grade(mark, subject="Unknown"):
     if 0 <= mark < 35:
         print("W", subject)
