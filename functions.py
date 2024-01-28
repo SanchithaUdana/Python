@@ -4,6 +4,7 @@
 # mark is a positional parameter
 # subject is a default arguments
 # we can not pass parameters after the default parameter
+
 def get_grade(mark, subject="Unknown"):
     if 0 <= mark < 35:
         print("W", subject)
