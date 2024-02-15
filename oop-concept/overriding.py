@@ -10,24 +10,20 @@ class Animal:  # parent class
         print("Animal is walking...")
 
 
-class Mammal:
-    def __init__(self):
-        print("i am mammal")
-
-    def feed(self):
-        print("feeding milk...")
-
-
-class Dog(Animal, Mammal):  # child class inherit from Animal Class
+class Dog(Animal):  # child class inherit from Animal Class
     def __init__(self, name="Unknown"):
         super(Dog, self).__init__("breed Dog")
         self.name = name
         print("Dog is created")
 
+    # Method Overriding
+    # redefined the parent class method in child class
+    def talk(self):
+        print("Dog is talking...")
+        # and we can call parent talk method also
+        super(Dog, self).talk()
+
 
 dog1 = Dog()
 
 dog1.talk()
-# call from Mammal class
-dog1.feed()
-
