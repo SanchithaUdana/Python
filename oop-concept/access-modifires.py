@@ -5,6 +5,11 @@ class Person:
         # set age is a private variable
         # we use __ before the variable name
         self.__age = 22
+        # we can create protected variable.
+        # in protected variable can access in the child classes of the parent class,
+        # and we can use protected variable outside the functions
+        # we create protected variable using _ before the protected variable name
+        self._city = "Polonnaruwa"
 
     # if we need access private variable we used getters and setters functions
 
@@ -18,6 +23,8 @@ class Person:
 
     def sleep(self):
         print("Sleeping", self.name)
+
+# ----------------------------------------------------------
 
 
 # create object using person class
